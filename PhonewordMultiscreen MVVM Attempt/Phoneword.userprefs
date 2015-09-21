@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Phoneword\Phoneword\Hooli.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword\Phoneword.Droid\Properties\AndroidManifest.xml">
+    <Files>
+      <File FileName="Phoneword\Phoneword\MainPage.xaml" Line="9" Column="7" />
+      <File FileName="Phoneword\Phoneword\CallHistoryPage.xaml" Line="13" Column="48" />
+      <File FileName="Phoneword\Phoneword\MainPage.xaml.cs" Line="14" Column="4" />
+      <File FileName="Phoneword\Phoneword.Droid\MainActivity.cs" Line="21" Column="4" />
+      <File FileName="Phoneword\Phoneword.Droid\Properties\AndroidManifest.xml" Line="10" Column="12" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
