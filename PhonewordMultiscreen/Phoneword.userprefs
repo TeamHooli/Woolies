@@ -2,9 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_21" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword\Phoneword\MainPage.xaml">
     <Files>
-      <File FileName="Phoneword\Phoneword\MainPage.xaml" Line="6" Column="30" />
-      <File FileName="Phoneword\Phoneword\CallHistoryPage.xaml" Line="1" Column="1" />
-      <File FileName="Phoneword\Phoneword\MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Phoneword\Phoneword\DiscountPage.xaml" Line="20" Column="16" />
+      <File FileName="Phoneword\Phoneword\DiscountPage.xaml.cs" Line="29" Column="2" />
+      <File FileName="Phoneword\Phoneword\MainPage.xaml" Line="26" Column="124" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
