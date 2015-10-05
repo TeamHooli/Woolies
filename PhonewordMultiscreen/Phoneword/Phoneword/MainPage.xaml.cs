@@ -16,5 +16,10 @@ namespace Phoneword
         {
             Navigation.PushAsync(new CallHistoryPage());
         }
+
+		void DiscountButtonClick(object sender, EventArgs e)
+		{
+			Navigation.PushAsync(new DiscountPage());
+		}
     }
 }

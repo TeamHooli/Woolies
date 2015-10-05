@@ -85,6 +85,13 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Background.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Product1.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Product2.png" />
+    <AndroidResource Include="Resources\drawable\dummyProduct1.png" />
+    <AndroidResource Include="Resources\drawable\dummyProduct2.png" />
+    <AndroidResource Include="Resources\drawable\dummyProduct3.png" />
+    <AndroidResource Include="Resources\drawable\logoFill.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\AndroidManifest.xml" />

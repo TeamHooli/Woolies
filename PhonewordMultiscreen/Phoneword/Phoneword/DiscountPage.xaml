@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Phoneword.DiscountPage" BackgroundImage="Background.png">
+
+
+
+	<ContentPage.Content>
+
+	<StackLayout HorizontalOptions="Center" VerticalOptions="Start" Orientation="Vertical" Spacing="30" >
+	<Image x:Name="Picture1" Source="dummyProduct1.png" HeightRequest="250"/>
+	<Image x:Name="Picture2" Source="dummyProduct2.png" HeightRequest="250" IsVisible="false"/>
+	<Image x:Name="Picture3" Source="dummyProduct3.png" HeightRequest="250" IsVisible="false"/>
+
+
+	<StackLayout VerticalOptions="End" HorizontalOptions="End" Orientation="Horizontal" Spacing="1" >
+	<Button x:Name="Dislike" Clicked="changePicture" Opacity="0"/>
+	<Button x:Name="Info" Opacity="0"/>
+	<Button x:Name="Like" Clicked="changePicture" Opacity="0"/>
+
+
+	</StackLayout>
+	</StackLayout>
+
+
+
+	</ContentPage.Content>
+</ContentPage>

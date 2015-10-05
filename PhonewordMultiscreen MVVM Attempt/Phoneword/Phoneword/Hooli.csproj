@@ -92,10 +92,4 @@
     <Folder Include="Views\" />
     <Folder Include="Helpers\" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\NoteTaker1-MvvmLight\NoteTaker1\NoteTaker1.Data\Hooli.Data.csproj">
-      <Project>{3A29130A-202F-4F65-A7A9-1A2F30BFB297}</Project>
-      <Name>Hooli.Data</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
