@@ -48,6 +48,30 @@
       <DependentUpon>DiscountPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="ProductsModel.cs" />
+    <Compile Include="RecipePage.xaml.cs">
+      <DependentUpon>RecipePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VerticalMenu.xaml.cs">
+      <DependentUpon>VerticalMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RecipesSubMenu\DailySuggestionPage.xaml.cs">
+      <DependentUpon>DailySuggestionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RecipesSubMenu\BreakfastPage.xaml.cs">
+      <DependentUpon>BreakfastPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RecipesSubMenu\AppetizersPage.xaml.cs">
+      <DependentUpon>AppetizersPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RecipesSubMenu\DrinksPage.xaml.cs">
+      <DependentUpon>DrinksPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RecipesSubMenu\LunchPage.xaml.cs">
+      <DependentUpon>LunchPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RecipesSubMenu\BreakfastRecipe1.xaml.cs">
+      <DependentUpon>BreakfastRecipe1.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainPage.xaml">
@@ -55,6 +79,30 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="DiscountPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerticalMenu.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipesSubMenu\DailySuggestionPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipesSubMenu\BreakfastPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipesSubMenu\AppetizersPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipesSubMenu\DrinksPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipesSubMenu\LunchPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RecipesSubMenu\BreakfastRecipe1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
@@ -75,6 +123,7 @@
   -->
   <ItemGroup>
     <Folder Include="Pictures\" />
+    <Folder Include="RecipesSubMenu\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

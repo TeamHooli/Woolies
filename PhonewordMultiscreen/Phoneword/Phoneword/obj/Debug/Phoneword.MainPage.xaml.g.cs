@@ -23,14 +23,14 @@ namespace Phoneword {
         private Entry passwordText;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private Button loginButton;
+        private Button scanButton;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(MainPage));
             usernameText = this.FindByName<Entry>("usernameText");
             passwordText = this.FindByName<Entry>("passwordText");
-            loginButton = this.FindByName<Button>("loginButton");
+            scanButton = this.FindByName<Button>("scanButton");
         }
     }
 }

@@ -50,25 +50,52 @@ namespace Phoneword.Droid
 			public const int Background = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int dummyProduct1 = 2130837505;
+			public const int Breakfast1 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int dummyProduct2 = 2130837506;
+			public const int Breakfast1Ingredients = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int dummyProduct3 = 2130837507;
+			public const int Breakfast1method = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int icon = 2130837508;
+			public const int Breakfast2 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int logoFill = 2130837509;
+			public const int Breakfast3 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int Product1 = 2130837510;
+			public const int dummyProduct1 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int Product2 = 2130837511;
+			public const int dummyProduct2 = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int dummyProduct3 = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int icon = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int logo = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int logoFill = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int logoFill2 = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int Menu = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int Product1 = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int Product2 = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int RecipesMenu = 2130837520;
 			
 			static Drawable()
 			{
@@ -80,14 +107,88 @@ namespace Phoneword.Droid
 			}
 		}
 		
+		public partial class Layout
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int main = 2130903040;
+			
+			static Layout()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Layout()
+			{
+			}
+		}
+		
+		public partial class Raw
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int beep = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int camera_swap_icon = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int camera_swap_icon_pressed = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int flashlight_turn_off_icon = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int flashlight_turn_off_icon_pressed = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int flashlight_turn_on_icon = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int flashlight_turn_on_icon_pressed = 2130968582;
+			
+			// aapt resource value: 0x7f040007
+			public const int ic_btn_search = 2130968583;
+			
+			// aapt resource value: 0x7f040008
+			public const int scan_line_blue = 2130968584;
+			
+			// aapt resource value: 0x7f040009
+			public const int scan_line_white = 2130968585;
+			
+			// aapt resource value: 0x7f04000a
+			public const int scandit_logo = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int scandit_logo2x = 2130968587;
+			
+			// aapt resource value: 0x7f04000c
+			public const int scandit_logo3x = 2130968588;
+			
+			static Raw()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Raw()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f030001
-			public const int ApplicationName = 2130903041;
+			// aapt resource value: 0x7f050001
+			public const int ApplicationName = 2131034113;
 			
-			// aapt resource value: 0x7f030000
-			public const int Hello = 2130903040;
+			// aapt resource value: 0x7f050000
+			public const int Hello = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int app_name = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int version = 2131034115;
 			
 			static String()
 			{

@@ -1,6 +1,8 @@
 ﻿using System;
 using Xamarin.Forms;
 
+
+
 namespace Phoneword
 {
 	public partial class MainPage : MasterDetailPage
@@ -14,7 +16,7 @@ namespace Phoneword
 			
         void Login(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new CallHistoryPage());
+            Navigation.PushAsync(new VerticalMenu());
         }
 
 		void DiscountButtonClick(object sender, EventArgs e)

@@ -5,14 +5,14 @@
 
 	<ContentPage.Content>
 
-	<StackLayout HorizontalOptions="Center" VerticalOptions="Start" Orientation="Vertical" Spacing="30" >
-	<Image x:Name="Picture1" Source="dummyProduct1.png" HeightRequest="250"/>
-	<Image x:Name="Picture2" Source="dummyProduct2.png" HeightRequest="250" IsVisible="false"/>
-	<Image x:Name="Picture3" Source="dummyProduct3.png" HeightRequest="250" IsVisible="false"/>
+	<StackLayout HorizontalOptions="Center" VerticalOptions="Start" Orientation="Vertical" Spacing="150" >
+	<Image x:Name="Picture1" Source="dummyProduct1.png" HeightRequest="270"/>
+	<Image x:Name="Picture2" Source="dummyProduct2.png" HeightRequest="270" IsVisible="false"/>
+	<Image x:Name="Picture3" Source="dummyProduct3.png" HeightRequest="270" IsVisible="false"/>
 
 
 	<StackLayout VerticalOptions="End" HorizontalOptions="End" Orientation="Horizontal" Spacing="1" >
-	<Button x:Name="Dislike" Clicked="changePicture" Opacity="0"/>
+	<Button x:Name="Dislike" Clicked="changePicture" Opacity="0" HeightRequest="80"/>
 	<Button x:Name="Info" Opacity="0"/>
 	<Button x:Name="Like" Clicked="changePicture" Opacity="0"/>
 

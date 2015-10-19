@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Phoneword.RecipePage" BackgroundImage="RecipesMenu.png" >
+	<ContentPage.Content>
+
+	<StackLayout  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Orientation="Vertical" Spacing="0">
+	<Button x:Name="DailySuggestionButton" HeightRequest="110" Opacity="0" Clicked="DailySuggestionButtonClick"/>
+	<Button x:Name="BreakfastButton" HeightRequest="100" Opacity="0" Clicked="BreakfastButtonClick"/>
+	<Button x:Name="AppetizersButton" HeightRequest="100" Opacity="0" Clicked="AppetizersButtonClick"/>
+	<Button x:Name="DrinksButton" HeightRequest="100" Opacity="0" Clicked="DrinksButtonClick"/>
+	<Button x:Name="LunchButton" HeightRequest="100" Opacity="0" Clicked="LunchButtonClick"/>
+	</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

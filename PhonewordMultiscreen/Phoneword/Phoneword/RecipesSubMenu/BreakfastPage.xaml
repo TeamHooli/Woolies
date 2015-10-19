@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Phoneword.BreakfastPage" BackgroundColor="#096012">
+	<ContentPage.Content>
+        <ScrollView Orientation="Horizontal" VerticalOptions="FillAndExpand">
+            <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+             <Button Image ="Breakfast1.png" Clicked="Recipe1Click"/>
+             <Button Image ="Breakfast2.png"/> 
+             <Button Image ="Breakfast3.png"/>    
+
+            </StackLayout>
+        </ScrollView>
+
+	</ContentPage.Content>
+</ContentPage>

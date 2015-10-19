@@ -1,11 +1,33 @@
 ﻿<Properties StartupItem="Phoneword\Phoneword.Droid\Phoneword.Droid.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_21" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword\Phoneword\MainPage.xaml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Phoneword\Phoneword\DiscountPage.xaml">
     <Files>
-      <File FileName="Phoneword\Phoneword\DiscountPage.xaml" Line="20" Column="16" />
-      <File FileName="Phoneword\Phoneword\DiscountPage.xaml.cs" Line="29" Column="2" />
-      <File FileName="Phoneword\Phoneword\MainPage.xaml" Line="26" Column="124" />
+      <File FileName="Phoneword\Phoneword\MainPage.xaml.cs" Line="6" Column="11" />
+      <File FileName="Phoneword\Phoneword\MainPage.xaml" Line="32" Column="98" />
+      <File FileName="Phoneword\Phoneword.Droid\MainActivity.cs" Line="17" Column="11" />
+      <File FileName="Phoneword\Phoneword\DiscountPage.xaml" Line="19" Column="2" />
+      <File FileName="Phoneword\Phoneword\ProductsModel.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Phoneword" expanded="True">
+            <Node name="Phoneword" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="DiscountPage.xaml" expanded="True" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="Phoneword.Droid" expanded="True">
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="drawable-hdpi" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

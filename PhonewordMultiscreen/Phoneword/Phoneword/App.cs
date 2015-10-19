@@ -11,7 +11,7 @@ namespace Phoneword
 		public App ()
 		{
 			PhoneNumbers = new List<string> ();
-			MainPage = new NavigationPage (new Phoneword.MainPage ());
+			MainPage = new NavigationPage (new Phoneword.MainPage ()){BarBackgroundColor=Color.Green};
 		}
 
 		protected override void OnStart ()

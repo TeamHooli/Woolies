@@ -81,7 +81,13 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"Phoneword.Droid.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.WindowsAzure.Mobile.dll",
+		"Microsoft.WindowsAzure.Mobile.Ext.dll",
+		"Newtonsoft.Json.dll",
 		"Phoneword.dll",
+		"ScanditSDK.dll",
+		"System.Net.Http.Extensions.dll",
+		"System.Net.Http.Primitives.dll",
 		"Xamarin.Android.Support.v4.dll",
 		"Xamarin.Forms.Core.dll",
 		"Xamarin.Forms.Platform.Android.dll",
